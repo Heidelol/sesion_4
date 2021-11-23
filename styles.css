@@ -3,7 +3,8 @@
     background: red;
     width: 100px;
     height: 100px;
-    position: relative;
+    position: absolute;
+    left: 0;
     
 }
 
@@ -11,9 +12,8 @@
     background: green;
     width: 100px;
     height: 100px;
-    position: relative;
-    right: -3320px;
-    bottom: 100px;
+    position: absolute;
+    right: 0;
 }
 
 .amarillo {
@@ -21,8 +21,9 @@
     width: 100px;
     height: 100px;
     position: relative;
-    left: 3320px;
-    top: 1000px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 
 }
 
@@ -30,6 +31,7 @@
     background: orange;
     width: 100px;
     height: 100px;
-    position: relative;
-    top: 900px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
